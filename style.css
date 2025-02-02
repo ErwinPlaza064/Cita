@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: rgb(255,5,5);
+background: linear-gradient(90deg, rgba(255,5,5,1) 0%, rgba(255,116,82,1) 35%, rgba(255,5,5,1) 100%);   
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__title{
+    margin-top: 10px;
+    background-color: #687ee1;
+    padding: 0 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+
+h1{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.gif{
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.button, .buttonNo{
+    background-color: #687ee1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.button:hover{
+    background-color: #a02e2e;
+}
+.buttonNo:hover{
+    background-color: #a02e2e;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        font-family: "Kanit", serif;
+        font-weight: 100;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container__title{
+       margin: 10px;
+        
+    }
+    
+    
+    .gif{
+        width: 80vw;
+    }
+    
+}
